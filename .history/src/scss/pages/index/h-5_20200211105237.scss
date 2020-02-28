@@ -1,0 +1,67 @@
+.host-section{
+	.price-container{
+		width: 100%;
+		.price-content{
+			position: relative;
+			width: 100%;
+			height: 355px;
+			h2{
+				font-size: 30px;
+				font-weight: 600;
+				margin-bottom: 20px;
+			}
+			figcaption{
+				padding-right: 20px;
+				p{
+					font-size: 16px;
+					font-weight: 600;
+					margin-bottom: 20px;
+				}
+				span{
+					font-size: 20px;
+					font-weight: 600;
+				}
+				.list-item{
+					padding: 0;
+					margin-top: 10px;
+					.item{
+						list-style: none;
+						margin-bottom: 10px;
+						font-size: 16px;
+						font-weight: 600;
+						.item-icon{
+							margin-right: 10px;
+						}
+					}
+				}
+			}
+			table{
+				tbody{
+					width: 100%;
+					tr{
+						height: 70px;
+						td{
+							display: flex;
+							.form-control{
+								font-size: 14px;
+								font-weight: 400;
+								line-height: 20px;
+								background: #fff;
+								border-radius: 2px;
+								border: 1px solid #e6e6e6;
+								display: block;
+								font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+								padding: 8px;
+								width: 100%;
+								-webkit-appearance: none;
+								-moz-appearance: none;
+								appearance: none;
+								text-align: left;
+							}
+						}
+					}	
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+extends _components/_layout/_layout.pug
+
+block var
+	- let title = 'Thiết Lập';
+	- let bodyClass = 'index-page';
+	- let titlePosition = ['DỰ ÁN TỐT NGHIỆP'];
+block banner,breadcrumb
+block main
+	include .\_components\thiet-lap\t-1.pug
+	include .\_components\thiet-lap\t-2.pug
+block scripts

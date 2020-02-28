@@ -1,0 +1,32 @@
+.t2-section{
+	.t2-container{
+		.form-box{
+			width: 100%;
+			height: 450px;
+			background-color: #fff;
+			box-shadow: 3px 6px 3px 3px rgba($color: #000000, $alpha: .2);
+			text-align: center;
+			h2{
+				padding-bottom: 50px;
+				padding-top: 50px;
+				color: #484848;
+			}
+			.form-group{
+				width: 100%;
+				padding: 35px 100px 0 200px;
+				.form-control{
+					margin-bottom: 43px;
+				}
+			}
+			.content-box{
+				width: 100%;
+				border-left: 1px solid #979797;
+				text-align: left;
+				padding: 50px 0 0 100px;
+				h1{
+					font-size: 35px;
+				}
+			}
+		}
+	}
+}

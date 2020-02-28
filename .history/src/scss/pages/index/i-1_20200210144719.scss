@@ -1,0 +1,12 @@
+.host-banner{
+	position: relative;
+	width: 100%;
+	height: 535px;
+	float: left;
+	background-image: url(..\assets\images\home-making-host.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	.host-slide{
+		width: 100%;
+	}
+}

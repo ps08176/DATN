@@ -1,0 +1,33 @@
+footer{
+	float: left;
+	width: 100%;
+	height: 500px;
+	background-color: #333;
+	color: #fff;
+	padding: 40px 0;
+	.footer{
+		width: 100%;
+		position: relative;
+		.footer-block{
+			width: 100%;
+			figure{
+				width: 110px;
+				height: 70px;
+			}
+			figcaption{
+				margin: 20px 0 0 0;
+				h2{
+					font-size: 20px;
+					margin-bottom: 20px;
+				}
+			}
+			.footer-list{
+				padding: 0;
+				.nav-item{
+					list-style: none;
+					padding-bottom: 20px;
+				}
+			}
+		}
+	}
+}

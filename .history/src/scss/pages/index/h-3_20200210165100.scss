@@ -1,0 +1,16 @@
+.host-section{
+	.host-section-title{
+		h2{
+			font-size: 32px;
+		}
+	}
+	.welcome-container{
+		width: 100%;
+		.wel-block{
+			position: relative;
+			.icon-wel{
+				margin: auto;
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+extends _components/_layout/_layout.pug
+
+block var
+	- let title = 'Gioi thieu';
+	- let bodyClass = 'gioi-thieu';
+	- let titlePosition = ['DỰ ÁN TỐT NGHIỆP'];
+block banner,breadcrumb
+block main
+	include .\_components\gioi-thieu\gt-1.pug
+	include .\_components\gioi-thieu\gt-2.pug
+	include .\_components\gioi-thieu\gt-3.pug
+	include .\_components\gioi-thieu\gt-4.pug
+	include .\_components\gioi-thieu\gt-5.pug
+	include .\_components\gioi-thieu\gt-6.pug
+	
+	
+block scripts

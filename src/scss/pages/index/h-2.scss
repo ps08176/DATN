@@ -1,0 +1,27 @@
+.h2-sec{
+	.host-trust {
+		position: relative;
+	
+		.trust-content {
+			width: 100%;
+	
+			h3 {
+				font-size: 22px;
+				margin-bottom: 20px;
+			}
+			.list-trust{
+				width: 100%;
+				padding: 0;
+				.list-item{
+					list-style: none;
+					font-size: 18px;
+					margin-bottom: 10px;
+					font-weight: 500;
+					.host-trust-tick{
+						padding-right: 10px;
+					}
+				}
+			}
+		}
+	}
+}

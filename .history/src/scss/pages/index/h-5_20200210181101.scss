@@ -1,0 +1,21 @@
+.host-section{
+	.price-container{
+		width: 100%;
+		.price-content{
+			position: relative;
+			width: 100%;
+			h2{
+				font-size: 30px;
+				font-weight: 600;
+				margin-bottom: 20px;
+			}
+			figcaption{
+				padding-right: 20px;
+				p{
+					font-size: 20px;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}

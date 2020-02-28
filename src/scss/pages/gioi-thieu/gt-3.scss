@@ -1,0 +1,65 @@
+.gt3-sec{
+		.kho-khan{
+			width: 100%;
+			height: 481px;
+			text-align: center;
+			margin-bottom: 50px;
+			padding: 20px 0 20px 0;
+		}
+		h1{
+			font-size: 26px;
+		}
+		h2{
+			color: #139980;
+			margin-bottom: 30px;
+			font-size: 24px;
+		}
+			.box1{
+				max-width: 265px;
+				height: 120px;
+				border: 0.5px dotted #000;
+				border-radius: 25px;
+				margin-bottom: 20px;
+			}
+				// .icon{
+				// 	width: 100px;
+				// 	height: 100px;
+				// 	margin-top: 30px;
+				// 	margin: auto;
+				// }
+					img{
+						object-fit: contain;
+						display: block;
+						margin: auto;
+						padding-top: 20px;
+						text-align: center;
+					}
+					.text{
+						max-width: 265px;
+						text-align: center;
+						padding-top: 20px;
+					}
+			// .button{
+			// 	background-color: #FEBA02;
+			// 	border: none;
+			// 	color: #139980;
+			// 	padding: 15px 32px;
+			// 	text-align: center;
+			// 	text-decoration: bold;
+			// 	display: inline-block;
+			// 	font-size: 22px;
+			// 	width: 318px;
+			// 	height: 52px;
+			// }
+			button{
+				width: 25%;
+				margin-left: 38%;
+				background-color: #FEBA02;
+				font-size: large;
+				color: #139980;
+			}
+			button:hover{
+				background-color: red;
+			}
+
+}

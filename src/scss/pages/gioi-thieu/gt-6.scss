@@ -1,0 +1,31 @@
+.gt6-sec{
+	.lien-he{
+		max-width: 100%;
+		height: 400px;
+		background-image: url(..\assets\images\gioithieu\lienhe.png);
+		margin-top: 50px;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+		.box-left{
+			text-align: left;
+			padding-top: 20%;//150px
+			padding-left: 20%; //220px
+		}
+		.box-right{
+			padding-top: 10%; //100px
+		}
+			input{
+				width: 70%;
+			}
+			button{
+				width: 70%;
+				margin-left: 0;
+				background-color: #FEBA02;
+				font-size: large;
+				color: #139980
+			}
+			button:hover{
+				background-color: red;
+			}
+}

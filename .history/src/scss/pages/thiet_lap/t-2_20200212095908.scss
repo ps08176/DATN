@@ -1,0 +1,21 @@
+.tt-section{
+	position: relative;
+	float: left;
+	height: 600px;
+	.t2-container{
+		position: absolute;
+		width: 50%;
+		top: -10%;
+		left: 50%;
+		transform: translate(-50%, -10%);
+		.tt-2-img{
+			width: 100%;
+			height: 400px;
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+}

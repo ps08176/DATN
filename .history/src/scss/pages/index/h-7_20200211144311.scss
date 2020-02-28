@@ -1,0 +1,14 @@
+.host-section{
+	.host-start{
+		position: relative;
+		width: 100%;
+		height: 520px;
+		.title{
+			width: 440px;
+			height: 200px;
+			position: absolute;
+			left: 0;
+			bottom: 20%;
+		}
+	}
+}

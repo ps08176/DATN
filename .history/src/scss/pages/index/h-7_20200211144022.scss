@@ -1,0 +1,19 @@
+.host-section{
+	.host-start{
+		position: relative;
+		float: left;
+		width: 100%;
+		height: 520px;
+		background-image: url(..\assets\images\dbe25d99-6821-4e02-802f-fcd7aaef85bc.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		.title{
+			display: inline;
+			width: 440px;
+			height: 200px;
+			position: absolute;
+			left: 0;
+			bottom: 20%;
+		}
+	}
+}

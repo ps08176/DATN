@@ -1,0 +1,40 @@
+.h6-sec{
+	.host-info-container{
+		width: 100%;
+		height: 550px;
+		position: relative;
+		.info-block{
+			padding: 20px;
+			figure{
+				width: 100%;
+				height: 250px;
+				img{
+					width: 100%;
+					height: 100%;
+				}
+			}
+			figcaption{
+				width: 100%;
+				h2{
+					font-size: 20px;
+					font-weight: 600;
+					margin: 20px 0 10px 0;
+				}
+				p{
+					font-size: 16px;
+					margin: 10px 0 10px 0;
+				}
+				a{
+					font-size: 16px;
+					color: #F07478;
+					@media(max-width: 1025px){
+						&:hover{
+							color: #484848;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

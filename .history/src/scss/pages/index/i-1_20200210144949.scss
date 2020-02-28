@@ -1,0 +1,23 @@
+.host-banner{
+	position: relative;
+	width: 100%;
+	height: 535px;
+	float: left;
+	background-image: url(..\assets\images\home-making-host.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	.host-slide{
+		position: relative;
+		width: 100%;
+		height: 535px;
+		background-color: rgba($color: #000000, $alpha: .5);
+		figcaption{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 50%;
+			height: 300px;
+		}
+	}
+}

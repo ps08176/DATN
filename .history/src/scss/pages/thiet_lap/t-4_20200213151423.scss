@@ -1,0 +1,23 @@
+.h4-sec{
+	.t4-container{
+		position: relative;
+		.left-box{
+			width: 100%;
+			padding-right: 50px;
+		}
+		.right-box{
+			width: 100%;
+			figcaption{
+				h2{
+					font-size: 32px;
+					font-weight: 600;
+					margin-bottom: 30px;
+				}
+				p{
+					font-size: 16px;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}

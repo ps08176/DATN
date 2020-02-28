@@ -1,0 +1,14 @@
+.tt-2-section{
+	float: left;
+	width: 100%;
+	height: 600px;
+	.tt-2-container{
+		position: relative;
+		.tt-2-img{
+			position: absolute;
+			width: 100%;
+			height: 450px;
+			background-image: url(..\assets\images\t-1.jpg);
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.gt4-sec{
+	.gioi-thieu{
+		width: 100%;
+		height: 360px;
+		margin-bottom: 50px;
+		padding: 20px 0 20px 0;
+	}
+		.box1{
+			max-width: 265px;
+			height: 358px;
+			border:  -1px solid #000;
+			border-radius: 20px;
+			text-align: center;
+			background-color: rgba($color: #000000, $alpha: .1);
+		}
+			.box1-main{
+				padding-top: 120px;
+			}
+			.box1-top{
+				padding-top: 20px;
+			}
+			.box1-bot{
+				padding-top: 60px;
+			}
+			hr{
+				border: 1px dashed #000;
+				margin-top: 10px;
+				width: 50%;
+			}
+}
